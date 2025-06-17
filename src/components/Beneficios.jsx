@@ -7,7 +7,7 @@ const steps = [
       number: '01',
       title: 'Make an Appointment',
       description: 'Visit our website to fill out the online form, call us directly using the number provided, email us your details and preferred date, or stop by the clinic in person.',
-      image: '../assets/dental-hero.avif', // usa tu imagen local o URL
+      image: '/assets/dental-hero.avif', // usa tu imagen local o URL
     },
     {
       number: '02',

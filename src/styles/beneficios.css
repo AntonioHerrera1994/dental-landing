@@ -27,14 +27,20 @@
   }
   
   h2 {
-    font-size: 32px;
-    color: #0a3b5c;
-    margin-bottom: 16px;
+    color: #0c4e6e;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    font-family: "Montserrat", sans-serif;
+    
   }
   
   .intro {
-    color: #6c7a89;
-    margin-bottom: 30px;
+    color: #666D80;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+ 
   }
   
   .step-list {
@@ -63,16 +69,19 @@
     color: #0066cc;
     margin-right: 12px;
     width: 30px;
+    font-family: "Montserrat", sans-serif;
   }
   
   .step-title {
     font-weight: bold;
     color: #0a3b5c;
+    font-family: "Montserrat", sans-serif;
   }
   
   .step-description {
     margin-top: 10px;
     color: #5f6c7b;
     font-size: 14px;
+    font-family: "Inter", sans-serif;
   }
   
