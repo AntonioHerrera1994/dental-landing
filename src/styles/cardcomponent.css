@@ -1,0 +1,93 @@
+.service-card {
+    position: relative;
+    width: 380px;
+    height: 280px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #0a3b5c;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    transform: translateY(0);
+  opacity: 1;
+  transition: all 0.4s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    color: white;
+  }
+
+  .service-card::before {
+    content: '';
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 0;
+  }
+  
+  .service-card:hover::before {
+    opacity: 1;
+  }
+  
+  .service-card:hover {
+    color: white;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .description {
+    font-size: 15px;
+    line-height: 1.5;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .service-card::before {
+    content: '';
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    z-index: 0;
+  }
+  
+  .service-card:hover::before {
+    opacity: 1;
+  }
+  
+  /* Fade del contenido */
+  .icon,
+  .title,
+  .description {
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .service-card:hover .icon,
+  .service-card:hover .title,
+  .service-card:hover .description {
+    color: white;
+  }

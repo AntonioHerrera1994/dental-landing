@@ -1,0 +1,45 @@
+.servicios{
+    margin: 0 auto;
+    padding: 0 3rem 8rem 3rem;
+}
+
+.serv-cont{
+    background-color: #F0FBFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 52px;
+}
+/********** Texto **********/
+
+.servtxt{
+margin-bottom: 4rem;
+}
+
+.servtxt h2{
+    color: #0c4e6e;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.servtxt p{
+    color: #666D80;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/********** Grid **********/
+
+.serv-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 2.5rem;
+}

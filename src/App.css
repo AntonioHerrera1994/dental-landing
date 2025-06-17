@@ -1,0 +1,88 @@
+.head{
+  margin: 0;
+
+}
+
+/********** Grid **********/
+.head-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  background-color: #0C4E6E;
+  padding: 2rem 5rem 8rem 2rem;
+}
+.grid-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid-2{
+  display: flex;
+  justify-content: right;
+}
+
+/********** Texto e Icono **********/
+.grid-2 .bi{
+  margin-left: 2rem;
+}
+
+.grid-1 a{
+  font-size: .8rem;
+  color: white;
+}
+
+.grid-1 i{
+  font-size: .8rem;
+  margin-right: .5rem;
+}
+
+/********** Head Principal **********/
+
+.hero{
+  max-width: 100%;
+  height: 120vh;
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,.04)),
+  url("./assets/dental-hero.avif");
+  background-position: center;
+  background-size: cover;
+  margin-top: -6rem;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+}
+
+.gradiente{
+background: linear-gradient(rgba(255, 255, 255, 0) 64.6819%, rgb(255, 255, 255) 100%);
+flex: 0 0 auto;
+height: 120vh;
+overflow: hidden;
+position: absolute;
+width: 100%;
+}
+
+/********** Head Principal Texto **********/
+.txthero{
+display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  gap: 15px;
+  padding: 90px;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 30%;
+}
+
+.txthero h1{
+  font-size: 72px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.txthero p{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin-top: -2.5rem;
+}

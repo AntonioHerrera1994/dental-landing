@@ -1,0 +1,78 @@
+.step-guide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    font-family: 'Helvetica Neue', sans-serif;
+    gap: 40px;
+  }
+  
+  .steps-left {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .step-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .step-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #0a3b5c;
+    margin-bottom: 16px;
+  }
+  
+  .intro {
+    color: #6c7a89;
+    margin-bottom: 30px;
+  }
+  
+  .step-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .step-item {
+    border: 1.5px solid transparent;
+    border-left: 4px solid #e6f0fc;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .step-item.active {
+    border-color: #0066cc;
+    background-color: #f4faff;
+  }
+  
+  .step-number {
+    display: inline-block;
+    font-weight: 600;
+    color: #0066cc;
+    margin-right: 12px;
+    width: 30px;
+  }
+  
+  .step-title {
+    font-weight: bold;
+    color: #0a3b5c;
+  }
+  
+  .step-description {
+    margin-top: 10px;
+    color: #5f6c7b;
+    font-size: 14px;
+  }
+  
